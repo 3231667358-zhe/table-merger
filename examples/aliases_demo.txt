@@ -1,0 +1,9 @@
+# 演示用别名表 —— 只配合 examples/input 里的样例数据。
+#
+# 注意：这个文件不会被自动加载。要用它必须显式指定：
+#     python3 merge.py examples/input --aliases examples/aliases_demo.txt
+#
+# 你自己的字段对应关系，请写到项目根目录的 aliases.txt 里（那个是默认自动加载的）。
+
+# 样例数据里：技术部用「姓名」，销售部用「名字」，客服部用「员工姓名」
+姓名 = 名字, 员工姓名

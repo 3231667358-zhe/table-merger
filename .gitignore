@@ -1,0 +1,33 @@
+# ---------- Python ----------
+__pycache__/
+*.pyc
+*.pyo
+
+# ---------- 虚拟环境 ----------
+.venv/
+venv/
+
+# ---------- 工具产生的结果文件 ----------
+# 默认输出名是「原目录名_merged.csv」，属于自己跑出来的东西，不进仓库。
+*_merged.csv
+*_merged.txt
+
+# 但 examples/ 里的演示结果是要展示给别人的，必须显式放行。
+!examples/sample_merged.csv
+!examples/sample_report.txt
+
+# ---------- Excel / 编辑器临时文件 ----------
+~$*.xlsx
+~$*.xlsm
+*.bak
+*.swp
+*.swo
+*~
+
+# ---------- IDE ----------
+.idea/
+.vscode/
+
+# ---------- 系统 ----------
+.DS_Store
+Thumbs.db

@@ -1,0 +1,7 @@
+# 合并 CSV 只需要 Python 标准库，不用装任何东西。
+#
+# 只有处理 .xlsx 时才需要 openpyxl。
+# Ubuntu 24.04 系统 Python 没装 pip，推荐直接用 apt：
+#   sudo apt install python3-openpyxl
+# 只有在你自己建的 venv 里，才用 pip install -r requirements.txt
+openpyxl>=3.1
